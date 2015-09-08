@@ -29,7 +29,7 @@ a img {
     opacity: .8;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #93abb0;
     text-align: center;
     font-variant: small-caps;
@@ -42,6 +42,10 @@ h1 {
 
 h2 {
     font-size: 1.2em;
+}
+
+h3 {
+    font-variant: normal;
 }
 
 .clear { clear: both; }
