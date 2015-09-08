@@ -60,6 +60,10 @@ hr {
     margin: 20px auto;
 }
 
+p {
+    padding: 10px 0;
+}
+
 /*-- NAVIGATION --*/
 .nav { padding: 20px 0; }
 
