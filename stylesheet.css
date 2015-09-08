@@ -151,6 +151,11 @@ p {
     padding: 0 10px 15px;
 }
 
+#newsletters > ul > li {
+    list-style: disc outside none;
+    color: red;
+    display: block;
+}
 footer {
     font-style: italic;
     margin: 10px 0 0 0;
