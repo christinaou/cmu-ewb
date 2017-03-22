@@ -1,56 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Engineers without Borders Carnegie Mellon" />
-        <meta name="keywords" content="Engineers Without Borders, Carnegie Mellon University, ewb, EWB, cmu, CMU, Energy India, Water Ecuador, Sustainability, Development, Developing Nations, Countries, World" />
-        <title>Engineers Without Borders | Carnegie Mellon</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-        <link media="screen" href="stylesheet.css" type="text/css" rel="stylesheet" />
-    </head>
-    <body>
-        <a class="logo" href="index.html">
-            <img src="style/logo.png" alt="Engineers Without Borders" />
-        </a>
-        <ul class="nav">
-            <li>
-                <a href="about.html">About Us</a>
-            </li>
-            <li>
-                <a href="calendar.html">Calendar</a>
-            </li>
-            <li>
-                <a href="projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="donate.html">Donate</a>
-            </li>
-            <li>
-                <a href="newsletters.html">Newsletters</a>
-            </li>
-        </ul>
-        <div id="content">
-            <div id="home">
-                <img src="images/home1.jpg">
-                <img src="images/home3.jpg">
-                <img src="images/home2.jpg">
-                <p> Welcome to the Carnegie Mellon University chapter of the non-profit humanitarian organization Engineers Without Borders. We are a group of students dedicated to understanding the challenges that face humanity today, and creating socially-conscious and environmentally sustainable technologies to improve quality of life for local, national, and international communities. Visit the <a href="http://www.ewb-usa.org/">national chapter website</a> to find out more. </p>
-                <hr>
-                <p>Sign up for the Engineers Without Borders email list:</p>
-                <form method="post" action="https://lists.andrew.cmu.edu/mailman/subscribe/EWB-members">
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" />
-                    <input type="submit" name="email-nav_link" value="Subscribe" />
-                </form>
-                <form action="https://lists.andrew.cmu.edu/mailman/webiso/login/mailman/listinfo/EWB-members" method="post">
-                    <label for="login">or use WebISO:</label>
-                    <input type="submit" value="Log in via WebISO" name="login" />
-                </form>
-                <hr>
-                <a href="https://twitter.com/EWB_CMU" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @EWB_CMU</a>
-                <script>!function(d,s,id){varjs,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script', 'twitter-wjs');</script>
-            </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="bootstrap/favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    
+    
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
         </div>
-        <footer>&copy;2015, Engineers Without Borders, Carnegie Mellon University Student Chapter</footer>
-    </body>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html" id="selected">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="donate.html">Donate!</a></li>  
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.ewb-usa.org">EWB-USA</a></li>
+            </a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron page-header">
+      <div class="container">
+          <img class="img-responsive" src="img/logo.png">
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        
+        <div class="col-md-4">
+          <h2>About Us</h2>
+          <p> Welcome to the Carnegie Mellon University chapter of the non-profit humanitarian organization Engineers Without Borders. We are a group of students dedicated to understanding the challenges that face humanity today, and creating socially-conscious and environmentally sustainable technologies to improve quality of life for local, national, and international communities. </p>
+          <p><a class="btn btn-default" href="http://www.ewb-usa.org/" role="button">About EWB-USA &raquo;</a></p>
+          <p><a class="btn btn-default" href="about.html" role="button">About Our Chapter &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Join!</h2>
+          
+          <p><a class="btn btn-default" href="projects.html" role="button">Learn About Our Projects &raquo;</a></p>
+            <p>Sign up for the Engineers Without Borders Email list</p>
+          <form method="post" action="https://lists.andrew.cmu.edu/mailman/subscribe/EWB-members">
+            <label for="email">Email:</label>
+            <input type="text" name="email" />
+            <input type="submit" name="email-nav_link" value="Subscribe" class="btn btn-sm"/>
+          </form>
+          <br>
+          <form action="https://lists.andrew.cmu.edu/mailman/webiso/login/mailman/listinfo/EWB-members" method="post">
+            <label for="login">or use WebISO:</label>
+            <input type="submit" value="Log in via WebISO" name="login" />
+          </form>
+        </div>
+          <div class="col-md-4">
+          <h2>Donate!</h2>
+              <p>Engineers Without Borders' projects are in need of funding. Please consider donating to our organization. Feel free to contact us at <a href="mailto:cmuewb@gmail.com">cmuewb@gmail.com</a> if you have any questions.</p>
+              <p><a class="btn btn-default" href="donate.html" role="button">Donate!&raquo;</a></p>
+          </div>
+          
+      </div>
+        
+
+
+      <hr>
+
+      <footer>
+        
+          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FCarnegie-Mellon-Engineers-Without-Borders-598801326925729%2F&width=51&layout=box_count&action=like&size=small&show_faces=false&share=false&height=65&appId" width="51" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
