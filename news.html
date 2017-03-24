@@ -9,17 +9,17 @@
     <meta name="author" content="">
     <link rel="icon" href="bootstrap/favicon.ico">
 
-    <title>Carnegie Mellon University Engineers Without Borders</title>
+       <title>Carnegie Mellon University Engineers Without Borders</title>
 
-    <!-- Bootstrap core CSS -->
+   <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
-    
-    
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
-
+    
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  
     <link href="style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -44,11 +44,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html" id="selected">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="news.html">News</a></li>
+            <li><a href="news.html" id="selected">News</a></li>
             <li><a href="donate.html">Donate!</a></li>  
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -64,51 +64,41 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron page-header">
       <div class="container">
+          <h2>News</h2>
           <img class="img-responsive" src="img/logo.png">
+          
+        
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        
-        <div class="col-md-4">
-          <h2>About Us</h2>
-          <p> Welcome to the Carnegie Mellon University chapter of the non-profit humanitarian organization Engineers Without Borders. We are a group of students dedicated to understanding the challenges that face humanity today, and creating socially-conscious and environmentally sustainable technologies to improve quality of life for local, national, and international communities. </p>
-          <p><a class="btn btn-default" href="http://www.ewb-usa.org/" role="button">About EWB-USA &raquo;</a></p>
-          <p><a class="btn btn-default" href="about.html" role="button">About Our Chapter &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Join!</h2>
-          
-          <p><a class="btn btn-default" href="projects.html" role="button">Learn About Our Projects &raquo;</a></p>
-            <p>Sign up for the Engineers Without Borders Email list</p>
-          <form method="post" action="https://lists.andrew.cmu.edu/mailman/subscribe/EWB-members">
-            <label for="email">Email:</label>
-            <input type="text" name="email" />
-            <input type="submit" name="email-nav_link" value="Subscribe" class="btn btn-sm"/>
-          </form>
-          <br>
-          <form action="https://lists.andrew.cmu.edu/mailman/webiso/login/mailman/listinfo/EWB-members" method="post">
-            <label for="login">or use WebISO:</label>
-            <input type="submit" value="Log in via WebISO" name="login" />
-          </form>
-        </div>
+          <div class="col-md-8">
+              <h4>Calendar of Events</h4>
+                <iframe src="http://www.google.com/calendar/embed?mode=MONTH&amp;title=Engineers%20Without%20Borders-CMU&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23d9ceb4&amp;src=cmuewb%40gmail.com&amp;color=%23cfddde&amp;ctz=America%2FNew_York" style=" border-width:0 " width="720" height="600" frameborder="0">
+                </iframe>
+              </div>
+              
           <div class="col-md-4">
-          <h2>Donate!</h2>
-              <p>Engineers Without Borders' projects are in need of funding. Please consider donating to our organization. Feel free to contact us at <a href="mailto:cmuewb@gmail.com">cmuewb@gmail.com</a> if you have any questions.</p>
-              <p><a class="btn btn-default" href="donate.html" role="button">Donate!&raquo;</a></p>
-          </div>
-          
-      </div>
+        <h2>Newsletter Archive</h2>  
+          <p>Check out our newsletters. </p>
+            <p><a class="btn btn-default btn-small" href="#" role="button">May 2015</a></p>
+            <p><a class="btn btn-default" href="#" role="button">March 2015</a></p>
+            <p><a class="btn btn-default" href="#" role="button">January 2015</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Fall 2014</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Fall 2013</a></p>
+       </div>
         
+        </div>
+      </div>
 
+    
 
       <hr>
 
       <footer>
-        
-          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FCarnegie-Mellon-Engineers-Without-Borders-598801326925729%2F&width=51&layout=box_count&action=like&size=small&show_faces=false&share=false&height=65&appId" width="51" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FCarnegie-Mellon-Engineers-Without-Borders-598801326925729%2F&width=51&layout=box_count&action=like&size=small&show_faces=false&share=false&height=65&appId" width="51" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </footer>
     </div> <!-- /container -->
 
