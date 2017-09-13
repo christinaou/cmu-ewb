@@ -65,18 +65,21 @@
 
 .headshot {
     float: left;
-    width: 35%;
+    /*width: 35%;*/
     height: auto;
 }
 
 .headshot img {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 3px;
+    display: block;
+    margin: auto;
 }
 
 .member-description {
-    margin-left: 40%;
+    /*margin-left: 40%;*/
+    text-align: center;
 }
 
 .container .row {
@@ -90,7 +93,7 @@
 }
 
 .project-lead img {
-    width: 50%;
+    width: 60%;
     height: auto;
     border-radius: 3px;
 }
