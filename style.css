@@ -72,6 +72,7 @@
 .headshot img {
     width: 100%;
     height: auto;
+    border-radius: 3px;
 }
 
 .member-description {
@@ -80,4 +81,16 @@
 
 .container .row {
     margin-bottom: 20px;
+}
+
+.project-lead {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.project-lead img {
+    width: 50%;
+    height: auto;
+    border-radius: 3px;
 }
