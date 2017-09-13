@@ -62,3 +62,35 @@
     max-width: inherit;
     max-height: inherit;
 }
+
+.headshot {
+    float: left;
+    width: 35%;
+    height: auto;
+}
+
+.headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.member-description {
+    margin-left: 40%;
+}
+
+.container .row {
+    margin-bottom: 20px;
+}
+
+.project-lead {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.project-lead img {
+    width: 50%;
+    height: auto;
+    border-radius: 3px;
+}
